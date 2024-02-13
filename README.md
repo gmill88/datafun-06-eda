@@ -19,4 +19,20 @@ python3 -m pip install pandas pyarrow jupyterlab matplotlib seaborn
  ```bash
  python3 -m pip freeze > requirements.txt
   ```
-6.  Create a .gitignore using the touch commonad and add .venv, .vscode, and .DS_Store
+6.  Create a .gitignore using the touch command and add .venv, .vscode, and .DS_Store
+
+## Data set used
+- [Seaborn tips dataset](https://github.com/mwaskom/seaborn-data/blob/master/tips.csv)
+- Using this dataset I plan to explore the relationship between the cost of the bill and the size of the tip,
+as well as exploring the relationship between smoking and tip size. 
+- This data has:
+    - 7 Rows
+    - 245 columns
+- The columns are 
+    - Total bill
+    - tip
+    - sex
+    - smoker
+    - day
+    - time (Lunch or dinner)
+    - size (size of party)
