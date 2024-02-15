@@ -44,7 +44,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 ```
-9. Acquire the seaborn data using sns.load_dataset('tips')
+9. Acquire the seaborn data using 
+```python
+df = sns.load_dataset('tips')
+```
 10. After data is acquired, inspect data, generate descriptive statistics, run initial data distributions for numerical and categorical columns. 
 11. Transform and feature engineer data to capitalize all columns and add a column for percent tip. 
 12. Use pairplots, histograms, and violin plots to fraw conclusions from the data. 
