@@ -53,7 +53,7 @@ df = sns.load_dataset('tips')
 11. Transform and feature engineer data to capitalize all columns and add a column for percent tip. 
 12. Use pairplots, histograms, and violin plots to fraw conclusions from the data. 
 13. Run notebook to ensure it executes without error.
-14. Git add, commitm and push to GitHub
+14. Git add, commit and push to GitHub
 ```bash
 git add .
 git commit -m "initial comment"
