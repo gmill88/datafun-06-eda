@@ -5,8 +5,9 @@ This project is designed to allow students the opportunity to create their own e
 
 ## Data set used
 - [Seaborn tips dataset](https://github.com/mwaskom/seaborn-data/blob/master/tips.csv)
-- Using this dataset I plan to explore the relationship between the cost of the bill and the size of the tip,
-as well as exploring the relationship between smoking and tip size. 
+- Using this dataset I plan to explore the relationship between the day of the week and numerical colums such as total bill. I also plan to determine 
+the percent tip for every transaction and run a frequency distribution to determine how tip percent is distributed. Lastly, I would like to compare party size
+to tip percent to determine if a larger party size correlates with a higher tip percent. 
 - This data has:
     - 7 Rows
     - 245 columns
